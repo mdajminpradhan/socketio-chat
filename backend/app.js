@@ -6,7 +6,7 @@ io = require('socket.io')(server, {
       origin: "*"
     }
   });
-
+console.log('alajsldfjk')
 
 io.on("connection", (socket) => {
     console.log('what is socket', socket)
